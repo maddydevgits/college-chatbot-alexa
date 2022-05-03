@@ -1,0 +1,107 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "college bot",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "HallTicketIntent",
+          "slots": [
+            {
+              "name": "hallticket",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "Roll No {hallticket}",
+            "Roll No is {hallticket}",
+            "My Roll No is {hallticket}",
+            "Roll Number is {hallticket}",
+            "My Roll Number is {hallticket}",
+            "Hall ticket is {hallticket}",
+            "My hall ticket is {hallticket}",
+            "{hallticket}"
+          ]
+        },
+        {
+          "name": "AttendanceIntent",
+          "slots": [],
+          "samples": [
+            "what is my attendance percentage",
+            "attendance",
+            "attendance percentage",
+            "What was my attendance percentage"
+          ]
+        },
+        {
+          "name": "AcademicIntent",
+          "slots": [],
+          "samples": [
+            "academic aggregate",
+            "academic percentage",
+            "what is my academic percentage",
+            "what was my academic percentage"
+          ]
+        },
+        {
+          "name": "TimeTableIntent",
+          "slots": [],
+          "samples": [
+            "timetable",
+            "time table of mine",
+            "what was my time table",
+            "time table",
+            "what is my time table"
+          ]
+        },
+        {
+          "name": "CouncellorIntent",
+          "slots": [],
+          "samples": [
+            "my councillor",
+            "who is my councillor",
+            "my councellor",
+            "my councellor name",
+            "what is my councellor name",
+            "councellor name",
+            "who is my councellor"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "15"
+}
